@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  background-color: darkorange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inbox{
+  position: relative;
+  width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px orangered;
+}
+
+.inbox .item{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.inbox .item .input-container{
+  padding: 10px;
+  border-right: 1px solid gray;
+}
+
+.inbox .item p{
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
